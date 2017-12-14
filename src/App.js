@@ -5,9 +5,9 @@ class App extends Component {
     return (
       <div>
         <header>
-          <h1>Schweinerei verbindungs</h1>
+          <h1>Mondo Hybridde</h1>
         </header>
-        <p>Was ist einein Schweinerei</p>
+        <p>Was sind Mondo Hybride ?</p>
       </div>
     );
   }
