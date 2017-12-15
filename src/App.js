@@ -7,13 +7,15 @@ import NavBar from './NavBar';
 import FooterBar from './FooterBar';
 
 const HundKatzenSchweinereiModule = props => (
-  <RouteLoader load={() => import('./HundKatzenSchweinerei')}>
+  <RouteLoader load={() => import('./pages/HundKatzenSchweinerei')}>
     {Component => <Component {...props} />}
   </RouteLoader>
 );
 
 const HomeModule = props => (
-  <RouteLoader load={() => import('./Home')}>{Component => <Component {...props} />}</RouteLoader>
+  <RouteLoader load={() => import('./pages/Home')}>
+    {Component => <Component {...props} />}
+  </RouteLoader>
 );
 
 class App extends Component {
