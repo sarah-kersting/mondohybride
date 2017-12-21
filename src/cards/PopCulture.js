@@ -6,6 +6,12 @@ import CardTemplate from '../CardTemplate';
 const styles = theme => ({
   paragraph: {
     paddingTop: 10,
+    fontSize: '16px',
+  },
+  subheading: {
+    paddingTop: 15,
+    fontSize: '18px',
+    fontWeight: 500,
   },
 });
 
