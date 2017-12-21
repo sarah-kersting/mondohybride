@@ -1,36 +1,21 @@
-import React, { Component, Fragment } from 'react';
-import Route from 'react-router-dom/Route';
-import Router from 'react-router-dom/BrowserRouter';
+import React, { Component } from 'react';
+import { MuiThemeProvider } from 'material-ui/styles';
 
-import RouteLoader from './RouteLoader';
-import NavBar from './NavBar';
+import theme from './theme';
+import HeaderBar from './HeaderBar';
 import FooterBar from './FooterBar';
-
-const HundKatzenSchweinereiModule = props => (
-  <RouteLoader load={() => import('./pages/HundKatzenSchweinerei')}>
-    {Component => <Component {...props} />}
-  </RouteLoader>
-);
-
-const HomeModule = props => (
-  <RouteLoader load={() => import('./pages/Home')}>
-    {Component => <Component {...props} />}
-  </RouteLoader>
-);
+import Home from './Home';
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <Fragment>
-          <NavBar />
-          <main style={{ paddingTop: '60px', paddingBottom: '40px', flex: 1 }}>
-            <Route exact path="/" component={HomeModule} />
-            <Route exact path="/hundkatzenschweinerei" component={HundKatzenSchweinereiModule} />
-          </main>
-          <FooterBar />
-        </Fragment>
-      </Router>
+      <MuiThemeProvider theme={theme}>
+        <HeaderBar />
+        <main style={{ paddingTop: '100px', paddingBottom: '40px', flex: 1 }}>
+          <Home />
+        </main>
+        <FooterBar />
+      </MuiThemeProvider>
     );
   }
 }

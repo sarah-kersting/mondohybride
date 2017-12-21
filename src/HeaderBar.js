@@ -5,25 +5,26 @@ import Typography from 'material-ui/Typography';
 const styles = theme => ({
   main: {
     backgroundColor: theme.palette.primary[900],
+    position: 'fixed',
+    top: 0,
     width: '100%',
-    height: '40px',
+    height: '100px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    flexShrink: 0,
-    overflow: 'hidden',
   },
   title: {
     color: theme.palette.secondary[800],
+    fontSize: '28px',
   },
 });
 
-const FooterBar = ({ classes }) => (
-  <footer className={classes.main}>
-    <Typography type="subheading">
-      <p className={classes.title}>{'Made with love in Berlin'}</p>
+const HeaderBar = ({ classes }) => (
+  <header className={classes.main}>
+    <Typography type="title">
+      <p className={classes.title}>{'Mondo Hybride Hundkatzenschweinerei'}</p>
     </Typography>
-  </footer>
+  </header>
 );
 
-export default withStyles(styles)(FooterBar);
+export default withStyles(styles)(HeaderBar);
