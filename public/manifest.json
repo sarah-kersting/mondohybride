@@ -1,15 +1,16 @@
 {
-  "short_name": "Mondo Hybride",
+  "short_name": "MH",
   "name": "Mondo Hybride",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "mondohybride.png",
+      "sizes": "512x512 256x256 128x128 64x64 32x32 24x24 16x16",
+      "type": "image/png"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#272D34",
-  "background_color": "#ffffff"
+  "theme_color": "#FFC986",
+  "background_color": "#243338"
 }
+

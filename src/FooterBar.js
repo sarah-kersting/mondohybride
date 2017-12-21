@@ -14,7 +14,7 @@ const styles = theme => ({
     overflow: 'hidden',
   },
   title: {
-    color: theme.palette.secondary[800],
+    color: theme.palette.secondary[200],
   },
 });
 

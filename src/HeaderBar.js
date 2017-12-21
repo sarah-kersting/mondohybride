@@ -14,7 +14,7 @@ const styles = theme => ({
     alignItems: 'center',
   },
   title: {
-    color: theme.palette.secondary[800],
+    color: theme.palette.secondary[200],
     fontSize: '28px',
   },
 });
