@@ -30,10 +30,10 @@ const Mythology = ({ classes }) => (
       Der Onozentaur
     </Typography>
     <Typography component="p" className={classes.paragraph}>
-      Zentauren sind gewaltige und schreckliche Wesen mit Pferdeunterleib und menschlichen
+      <a href="https://de.wikipedia.org/wiki/Zentaur">Zentauren</a> sind gewaltige und schreckliche Wesen mit Pferdeunterleib und menschlichen
       Oberkörper. Sie tauchen in der griechischen Mythologie oft als machtvolle Verkörperung unseres
-      primitiven Id auf. So rauben sie in der Kentauromachie weinberauscht die Frauen der Lapithen.
-      Ein anderer Zentaur, der Arzt Chiron, war hingegen ein gottartiger Heiler und Quelle tiefer
+      primitiven Id auf. So rauben sie in der Kentauromachie weinberauscht die Frauen der <a href="https://de.wikipedia.org/wiki/Lapithen">Lapithen</a>.
+      Ein anderer Zentaur, der Arzt <a href="https://de.wikipedia.org/wiki/Cheiron">Chiron</a>, war hingegen ein gottartiger Heiler und Quelle tiefer
       Weisheit. So oder so, Zentauren sind nicht auf die leichte Schulter zu nehmen. Anders hingegen
       sein kleiner Vetter, der Onozentaur. Onozentauren sind Mischwesen aus Mensch und Esel - und
       damit weit weniger gewaltig. Obwohl Onozentauren von Aelian (quote) als gewalttätig
