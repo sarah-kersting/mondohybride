@@ -18,7 +18,7 @@ const styles = theme => ({
 const BioChemie = ({ classes }) => (
   <CardTemplate headline="BioChemie und Schweinereien">
     <Typography component="p" className={classes.paragraph}>
-      Eine gute Hundkatzenschweinerei ist das Ergebnis einer erfolgreichen Hybridisierung von Organismen
+      Einen gute Hundkatzenschweinerei ist das Ergebnis einer erfolgreichen Hybridisierung von Organismen
       mittels gezielter Genomveränderung durch biochemische Methoden wie Crispr/Cas, wenn sie in
       einem nicht-institutionellen Rahmen erfolgt. Der Begriff kommt aus der deutschen
       do-it-yourself Biologie oder Biohacking Szene. Er ist dabei sowohl humorvoll gemeint, aber
